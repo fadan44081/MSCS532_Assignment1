@@ -1,3 +1,6 @@
+# MSCS532 Assignment 1
+# Insertion Sort Algorithm (Monotonically Decreasing Order)
+# Author: Fathiya Adan
 def insertion_sort_decreasing(arr):
 
     for j in range(1, len(arr)):
@@ -18,3 +21,11 @@ print("Original array:", array)
 insertion_sort_decreasing(array)
 
 print("Sorted array (monotonically decreasing):", array)
+
+array2 = [10, 7, 8, 9, 1, 5]
+
+print("\nOriginal second array:", array2)
+
+insertion_sort_decreasing(array2)
+
+print("Sorted second array (monotonically decreasing):", array2)
